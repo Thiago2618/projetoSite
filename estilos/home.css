@@ -1,0 +1,61 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.home-content {
+    margin: 110px;
+    color: white;
+    width: 90%;
+}
+
+.home-content h1 {
+    font-size: 5rem ;
+}
+
+.home-content h3 {
+    font-size: 1.5em;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+.home-content h2 {
+color: #cea221;
+}
+
+@media (max-width: 850px) {
+    .img img {
+        display: none;
+    }
+
+    .home-contetn h1 {
+        font-size: 1.5rem;
+    }
+}
+
+aside {
+    display: flex;
+    margin-top: 5px;
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+    margin-right:20px ;
+    padding: 10px;
+}
+
+#linkedin, #git {
+    font-size: 30px;
+}
+
+aside a:hover {
+    background-color: #1a3353;
+    border-radius: 50%;
+    color: black;
+}

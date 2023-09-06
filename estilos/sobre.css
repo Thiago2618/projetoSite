@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.sobre{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: linear-gradient(to right, #121935, #162b46);
+}
+
+.sobre-content {
+    margin: 110px;
+    color: white;
+    width: 700px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.sobre-content h1 {
+    font-size: 2rem;
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+
+.sobre-content p {
+ font-family: montserrat;
+}
