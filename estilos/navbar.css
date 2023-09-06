@@ -2,7 +2,6 @@
 
 .header {
     background-color: transparent;
-    backdrop-filter: blur(3px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +24,7 @@ nav a {
     text-transform: uppercase;
 }
 
-nav a:hover, a.active {
+nav a:hover{
     background-color:rgb(2, 182, 182);
     color: black;
     border-radius: 15px;
