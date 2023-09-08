@@ -71,5 +71,6 @@ nav a:hover{
     .bars {
         width: 1.5em;
         color: white;
+        width: 50px;
     }
 }
