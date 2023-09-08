@@ -43,10 +43,6 @@ nav a:hover{
 
 @media (max-width: 550px) {
     .checkbtn {
-        display: none;
-    }
-     
-    #check {
         display: block;
     }
 
