@@ -31,10 +31,9 @@ table img {
 }
 
 td {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     border: none;
-
 }
 
 td:hover {
@@ -72,3 +71,4 @@ td:hover {
         margin-top: 10px;
     }
 }
+
