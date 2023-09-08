@@ -2,6 +2,7 @@
 
 .header {
     background-color: transparent;
+    backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +49,7 @@ nav a:hover{
 
     nav {
         background-color: rgba(0, 0, 0, 0.555);
-        backdrop-filter: blur(5px);
+        
         height: 40vh;
         width: 100%;
         position: fixed;
