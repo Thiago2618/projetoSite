@@ -5,27 +5,35 @@
     justify-content: center;
     padding: 15px;
 
+
 }
 
 
 .logos {
     display: flex;
-    border: 1px black solid;
+    
     justify-content: center;
     width: 700px;
 }
 
 .skills h1 {
     margin: 15px 0px;
+    text-align: center;
 }
 
 table {
     width: 100%;
+    border: none;
+}
+
+table img {
+    width: 70px;
 }
 
 td {
     padding: 30px;
     text-align: center;
+    border: none;
 
 }
 
@@ -37,6 +45,30 @@ td:hover {
 
 .desc {
     padding: 10px;
+    border: 1px black solid;
 }
 
 
+@media (max-width: 550px) {
+    .logos {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    td {
+        padding: 10px;
+    }
+
+    table img {
+        width: 70%;
+    }
+
+    table {
+        width: 40%;
+    }
+
+    .desc {
+        width: 60%;
+        margin-top: 10px;
+    }
+}
