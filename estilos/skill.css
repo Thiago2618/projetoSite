@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .skills {
     height: 100vh;
     display: flex;
@@ -5,13 +7,13 @@
     justify-content: center;
     padding: 15px;
     color: white;
-    background-image: linear-gradient(to right, #121935, #162b46)
+    background-image: linear-gradient(to right, #121935, #162b46);
+    font-family: montserrat;
 }
 
 
 .logos {
     display: flex;
-    
     justify-content: center;
     width: 700px;
 }
@@ -22,7 +24,6 @@
 }
 
 table {
-    width: 100%;
     border: none;
 }
 
@@ -51,10 +52,10 @@ td:hover {
 }
 
 .desc p {
-    height: 100%;
     text-indent: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: justify;
+    line-height: 1.5em;
 }
 
 
@@ -62,25 +63,35 @@ td:hover {
     .logos {
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        justify-content: center;
+        width: 100vw;
+        height: 100%;
     }
+
     td {
-        padding: 10px;
+        padding: 5px;
+    }
+
+    .desc p {
+        line-height: 1em;
+        font-size: 0.8em;
     }
 
     table img {
         width: 70%;
     }
+    
     .skills h1 {
         color: transparent;
     }
 
     table {
-        width: 40%;
+        width: 60%;
     }
 
     .desc {
         margin-top: 10px;
+        width: 300px;
     }
 }
 
