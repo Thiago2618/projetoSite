@@ -1,0 +1,27 @@
+.skills {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.logos {
+    display: flex;
+    border: 1px black solid;
+    justify-content: center;
+    width: 50%;
+    height: 70vh;
+}
+
+table {
+    width: 100%;
+}
+
+.logos td{
+    padding: 20px;
+}
+
+.desc {
+    border: 1px black solid;
+}
