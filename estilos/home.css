@@ -48,6 +48,9 @@ color: #cea221;
     .home h3 {
         font-size: 1.3em;
     }
+    .home h2 {
+        font-size: 1em;
+    }
 }
 
 @media (width: 768px ) {
