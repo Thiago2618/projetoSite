@@ -2,26 +2,31 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 40px;
+    justify-content: center;
+    padding: 15px;
+
 }
+
 
 .logos {
     display: flex;
     border: 1px black solid;
     justify-content: center;
-    width: 50%;
-    height: 70vh;
+    width: 700px;
+}
+
+.skills h1 {
+    margin: 15px 0px;
 }
 
 table {
     width: 100%;
 }
 
-.logos td{
-    padding: 20px;
+td {
+    padding: 30px;
+    text-align: center;
+
 }
 
-.desc {
-    border: 1px black solid;
-}
+
