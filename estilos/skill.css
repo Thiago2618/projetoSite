@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     padding: 15px;
-
-
+    color: white;
+    background-image: linear-gradient(to right, #121935, #162b46)
 }
 
 
@@ -45,6 +45,12 @@ td:hover {
 .desc {
     padding: 10px;
     border: 1px black solid;
+}
+
+.desc p {
+    height: 100%;
+    text-indent: 10px;
+    font-size: 1.5em;
 }
 
 
