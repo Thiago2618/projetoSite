@@ -68,9 +68,8 @@ nav a:hover{
     #check:checked ~  nav {
         top: 80px;
     }
-}
-
-.bars {
-    width: 1.5em;
-    color: white;
+    .bars {
+        width: 1.5em;
+        color: white;
+    }
 }
