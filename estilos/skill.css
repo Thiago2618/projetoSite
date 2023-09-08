@@ -30,6 +30,7 @@ table img {
     width: 70px;
 }
 
+
 td {
     padding: 10px;
     text-align: center;
@@ -40,17 +41,20 @@ td:hover {
     cursor: pointer;
     transform: scale(1.2);
     transition: all 0.5s;
+
 }
 
 .desc {
     padding: 10px;
     border: 1px black solid;
+
 }
 
 .desc p {
     height: 100%;
     text-indent: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 
@@ -67,13 +71,15 @@ td:hover {
     table img {
         width: 70%;
     }
+    .skills h1 {
+        color: transparent;
+    }
 
     table {
         width: 40%;
     }
 
     .desc {
-        width: 60%;
         margin-top: 10px;
     }
 }
