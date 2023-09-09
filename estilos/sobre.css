@@ -8,44 +8,42 @@
     background-image: linear-gradient(to right, #121935, #162b46);
 }
 
-.sobre-content {
-    border: 1px solid black;
-    width: 80%;
-    height: 60%;
-    position: relative;
-}
+.icones img {
+    width: 40px;
+    margin-top: 60px;
+    margin: 20px ;
+} 
 
-.fotoPerfil {
-    position: absolute;
-    border: 1px solid red;
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
+.icones {
     display: flex;
-    justify-content: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.icones img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all .5s ease;
+}
+
+.sobre-container {
+    border: 1px black solid;
+    padding: 20px;
+    margin: auto;
+    width: 900px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    top: 60px;
-    left: -60px;
-    overflow: hidden;
 }
 
-.fotoPerfil img {
-    width: 100%;
+.sobre-container p {
+    color: white;
+    text-align: justify;
+    margin: 10px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
 }
-
-@media (max-width: 800px) {
-    .fotoPerfil {
-        width: 110px;
-        height: 110px;
-        top: -50px;
-        left: auto;
-    }
-
-    .sobre-content {
-        margin-top: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+.sobre-container h1 {
+    color: white;
 }
