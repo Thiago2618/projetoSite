@@ -9,30 +9,43 @@
 }
 
 .sobre-content {
-    margin: 110px;
-    color: white;
-    width: 700px;
-    text-align: justify;
-    line-height: 1.5em;
+    border: 1px solid black;
+    width: 80%;
+    height: 60%;
+    position: relative;
 }
 
-.sobre-content h1 {
-    font-size: 2rem;
-    margin: 15px 0px;
-    text-transform: uppercase;
+.fotoPerfil {
+    position: absolute;
+    border: 1px solid red;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    left: -60px;
+    overflow: hidden;
 }
 
-.sobre-content p {
- font-family: montserrat;
+.fotoPerfil img {
+    width: 100%;
 }
 
-@media (max-width: 550px ) {
-    .sobre-content {
-        margin: 20px;
+@media (max-width: 800px) {
+    .fotoPerfil {
+        width: 110px;
+        height: 110px;
+        top: -50px;
+        left: auto;
     }
-}
-@media (width: 768px ) {
+
     .sobre-content {
-        margin: 20px;
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
 }

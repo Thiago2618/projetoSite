@@ -1,0 +1,28 @@
+<section class="sobre" id="sobre">
+            <div class="sobre-content">
+               <h1>
+                Sobre Mim:
+               </h1>
+               <p>Eu sou um estudante dedicado cursando Engenharia da Computação, apaixonado por tecnologia desde muito jovem. Minha jornada na programação começou no terceiro ano do ensino médio, quando fui introduzido ao fascinante mundo da criação de software. Desde então, tenho aprimorado minhas habilidades e conhecimentos nessa área empolgante.
+                Meu objetivo é seguir uma carreira como Fullstack Developer, unindo o melhor dos dois mundos: desenvolvimento front-end e back-end. Tenho sede de conhecimento e estou constantemente explorando novas linguagens de programação e tecnologias para me manter atualizado e preparado para os desafios que a indústria de tecnologia apresenta..</p>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="skills-content">
+                <h1 id="habilidades">Skills</h1>
+                    <div class="logos">
+                        <table class="tabela">
+                            <tr><td><img src="assets/img/js.png" alt="LogoJs" title="Js" onclick=trocarTexto(0)></td> 
+                            <td><img src="assets/img/css-3.png" alt="LogoCss" title="CSS" onclick=trocarTexto(1)></td></tr>
+                            <tr><td><img src="assets/img/html.png" alt="LogoHtml" title="Html" onclick=trocarTexto(2)></td>
+                            <td><img src="assets/img/biblioteca.png" alt="LogoReact" title="React" onclick=trocarTexto(3)></td></tr>
+                            <tr><td><img src="assets/img/mysql.png" alt="LogoMysql" title="MySql" onclick=trocarTexto(4)></td>
+                            <td><img src="assets/img/icons8-angularjs-50.png" alt="LogoAngular" title="Angular" onclick=trocarTexto(5)></td></tr>
+                            <tr><td><img src="assets/img/icons8-vuejs-32.png" alt="LogoVue" title="Vue" onclick=trocarTexto(6)></td>
+                            <td><img src="assets/img/icons8-bootstrap-a-free-and-open-source-css-framework-48.png" alt="logoBootstrap" title="Bootstrap" onclick=trocarTexto(7)></td></tr>
+                         </table>
+                         <div class="desc">
+                            <p id="descricao" >JavaScript foi a minha primeira linguagem de programação, introduzindo-me a este emocionante mundo. Desde então, tenho continuado a estudar e aprimorar meu conhecimento em JavaScript, aproveitando sua versatilidade e a comunidade envolvente. Essa linguagem não apenas me abriu as portas para a programação, mas também me inspirou a buscar constantemente melhorias e a explorar suas inovações. Minha jornada em JavaScript continua, e estou ansioso para ver para onde ela me levará em seguida.</p>
+                         </div>
+                    </div>
+        </section>
