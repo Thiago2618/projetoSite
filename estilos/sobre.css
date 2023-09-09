@@ -47,3 +47,26 @@
 .sobre-container h1 {
     color: white;
 }
+
+@media (max-width: 600px) {
+    .sobre-container {
+        width: 90%;
+        height: 70%;
+        padding: 5px;
+    }
+
+    .sobre-container p {
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    .icones {
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    .icones img {
+        width: 20px;
+        margin: 10px;
+    }
+}
