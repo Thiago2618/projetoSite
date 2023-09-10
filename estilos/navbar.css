@@ -19,7 +19,7 @@
 .active {
     background-color: #385947;
     border-radius: 15px;
-    color: white;
+    color: black;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color:rgb(2, 182, 182);
+    background-color:#385947;
     color: black;
     border-radius: 15px;
 }
