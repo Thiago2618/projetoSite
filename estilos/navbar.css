@@ -17,12 +17,15 @@
 }
 
 .active {
-    color: red;
+    background-color: #385947;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
 nav a {
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: black;
     padding: 10px;
     margin: 5px;
     text-decoration: none;
