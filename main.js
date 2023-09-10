@@ -1,22 +1,38 @@
-function trocarTexto(id = 0) {
-    let texto = document.querySelector('#descricao')
-    
-    let lista = ['JavaScript foi a minha primeira linguagem de programação, introduzindo-me a este emocionante mundo. Desde então, tenho continuado a estudar e aprimorar meu conhecimento em JavaScript, aproveitando sua versatilidade e a comunidade envolvente. Essa linguagem não apenas me abriu as portas para a programação, mas também me inspirou a buscar constantemente melhorias e a explorar suas inovações. Minha jornada em JavaScript continua, e estou ansioso para ver para onde ela me levará em seguida.', 
-    
-    'CSS foi uma das primeiras linguagens que aprendi e desempenhou um papel fundamental em minha jornada inicial na programação. Sua habilidade de dar estilo e formato aos elementos da web permitiu que eu visse resultados visuais imediatos do meu trabalho, o que foi incrivelmente motivador. A capacidade de transformar código em designs atraentes e funcionais me deu confiança e impulso para continuar aprendendo e explorando o vasto mundo do desenvolvimento web. CSS não apenas tornou minhas criações mais bonitas, mas também me mostrou o poder da combinação entre código e design, inspirando meu compromisso contínuo com a área.', 
-    
-    'Aprender HTML foi uma das experiências mais gratificantes no meu caminho na programação. Foi uma das primeiras linguagens que tive contato, e descobrir como estruturar sites e páginas da web foi emocionante. Com as tags HTML, pude criar cabeçalhos, parágrafos, imagens e links, dando forma ao conteúdo online. Essa linguagem é como o alicerce de um edifício, fundamental para a construção de qualquer site, e ver minhas criações ganharem vida na web foi uma sensação incrível. A partir desse ponto de partida, minha paixão pela programação só cresceu, inspirando-me a explorar mais e aprofundar meus conhecimentos na área. HTML continua sendo uma parte essencial e gratificante da minha jornada na tecnologia.', 
-    
-    'React foi o primeiro framework que aprendi e fiquei impressionado com sua abordagem baseada em componentes. A capacidade de criar interfaces de usuário divididas em partes reutilizáveis me cativou desde o início. Continuo estudando React até hoje, pois sua capacidade de criar interfaces dinâmicas e responsivas me mantém motivado a explorar suas possibilidades em constante evolução. Em resumo, React não apenas marcou o início da minha jornada com frameworks, mas também continua sendo uma parte essencial e emocionante do meu desenvolvimento como programador.', 
-    
-    'MySQL foi a primeira linguagem de banco de dados que tive a oportunidade de aprender, e ela desempenhou um papel fundamental ao me introduzir no fascinante mundo dos sistemas de gerenciamento de bancos de dados. Ao aprender a criar, consultar e manipular dados com MySQL, abriu-se um novo horizonte de possibilidades para mim. Foi emocionante perceber como os dados podem ser organizados, armazenados e recuperados de maneira eficiente, proporcionando uma base sólida para o desenvolvimento de aplicativos e sistemas mais complexos. Desde então, minha paixão pelo gerenciamento de dados e bancos de dados cresceu, e essa primeira experiência com MySQL marcou o início de uma jornada empolgante na área de armazenamento e recuperação de informações.', 
-    
-    'Atualmente, estou em processo de me introduzir ao Angular, uma ferramenta poderosa para desenvolvimento web. Estou animado com a perspectiva de dominar essa tecnologia, pois reconheço o imenso potencial que ela tem para criar aplicativos web robustos e eficientes. Embora ainda esteja na fase inicial da minha jornada com o Angular, estou comprometido em aprender e aprofundar meus conhecimentos para tirar o máximo proveito dessa ferramenta e expandir minhas habilidades de desenvolvimento web. Acredito que com dedicação e prática contínua, serei capaz de dominar o Angular e utilizar seu poder para criar aplicações web incríveis.', 
-    
-    'Neste momento, estou me familiarizando com o Vue.js, uma poderosa estrutura de JavaScript para o desenvolvimento de interfaces de usuário dinâmicas. Estou ansioso para dominar essa ferramenta, pois percebo seu potencial em criar interfaces interativas e responsivas de maneira eficaz. Embora minha jornada com o Vue.js ainda esteja no começo, estou empenhado em aprender e aprofundar meu conhecimento, visando aproveitar ao máximo essa tecnologia e expandir minhas habilidades no desenvolvimento web. Com dedicação e prática contínua, acredito que vou alcançar a maestria no Vue.js e aproveitar sua versatilidade para criar experiências web excepcionais.', 
-    
-    'Bootstrap foi uma das ferramentas que utilizei no início da minha jornada de aprendizado, graças à sua incrível facilidade para criar designs responsivos. Com sua ampla gama de componentes e estilos pré-construídos, Bootstrap tornou o processo de desenvolver sites e aplicativos web visualmente atraentes uma tarefa muito mais acessível. Foi uma introdução valiosa ao mundo do design responsivo, permitindo-me criar layouts flexíveis e agradáveis aos olhos sem a necessidade de conhecimento avançado em design web. À medida que continuei a aprimorar minhas habilidades, o Bootstrap permaneceu como uma ferramenta valiosa em meu arsenal de desenvolvimento, facilitando a criação de interfaces modernas e adaptáveis.']
-
-    texto.innerHTML = lista[id]
-
-}
+// Função para destacar o link da navbar com base na posição de rolagem
+function highlightNavLinkOnScroll() {
+    // Obtém a posição de rolagem atual
+    var scrollPosition = window.scrollY;
+  
+    // Obtém todos os links da navbar
+    var navbarLinks = document.querySelectorAll("nav a");
+  
+    // Itera pelos links da navbar
+    navbarLinks.forEach(function (link) {
+      // Obtém o elemento correspondente à seção associada ao link
+      var sectionId = link.getAttribute("href").substring(1);
+      var section = document.getElementById(sectionId);
+  
+      // Verifica se a seção é visível na página
+      if (section) {
+        var sectionTop = section.offsetTop;
+        var sectionHeight = section.offsetHeight;
+  
+        // Verifica se a posição de rolagem está dentro da seção
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+          // Remove a classe "active" de todos os links
+          navbarLinks.forEach(function (navLink) {
+            navLink.classList.remove("active");
+          });
+  
+          // Adiciona a classe "active" ao link correspondente à seção visível
+          link.classList.add("active");
+        }
+      }
+    });
+  }
+  
+  // Chama a função quando a página é carregada
+  window.addEventListener("load", highlightNavLinkOnScroll);
+  
+  // Chama a função quando a página é rolada
+  window.addEventListener("scroll", highlightNavLinkOnScroll);

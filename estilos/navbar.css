@@ -16,6 +16,10 @@
     
 }
 
+.active {
+    color: red;
+}
+
 nav a {
     font-family: 'Lato', sans-serif;
     color: white;
@@ -80,3 +84,4 @@ nav a:hover{
     color: white;
     width: 50px;
 }
+

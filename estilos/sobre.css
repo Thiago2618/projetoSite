@@ -23,7 +23,7 @@
 .icones img:hover {
     cursor: pointer;
     transform: scale(1.5);
-    transition: all .5s ease;
+    transition: all .5s ease-in-out;
 }
 
 .sobre-container {
@@ -68,5 +68,16 @@
     .icones img {
         width: 20px;
         margin: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    .sobre-container p {
+        font-size: 0.8em;
+        line-height: 1em;
+    }
+    .icones img {
+        width: 20px;
+        margin: 5px;
     }
 }
