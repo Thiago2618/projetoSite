@@ -5,7 +5,9 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    background-image: linear-gradient(to right, #385947, #5D8C64);}
+    color: #F3EAEB;
+    background-image: linear-gradient(to right, #385947, #5D8C64);
+}
 
 .icones img {
     width: 40px;
