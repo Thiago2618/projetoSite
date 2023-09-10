@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caprasimo&family=Open+Sans:wght@500&display=swap');
 
 .sobre{
     height: 100vh;
@@ -7,6 +7,7 @@
     align-items:center;
     color: #F3EAEB;
     background-image: linear-gradient(to right, #385947, #5D8C64);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icones img {

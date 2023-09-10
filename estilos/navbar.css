@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caprasimo&family=Open+Sans:wght@500&display=swap');
 
 .header {
     background-color: transparent;
@@ -24,7 +24,7 @@
 }
 
 nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #F3EAEB;
     padding: 10px;
     margin: 5px;
