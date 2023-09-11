@@ -6,7 +6,7 @@
     justify-content: center;
     align-items:center;
     color: #F3EAEB;
-    background-image: linear-gradient(to right, #385947, #5D8C64);
+    background-image: linear-gradient(to right, #2f4b3b, #537c5a);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -66,6 +66,13 @@
     .sobre-container p {
         font-size: 1em;
         line-height: 1em;
+    }
+
+    .sobre-container h1 {
+        font-size: 1em;
+    }
+    .sobre-container h3 {
+        font-size: 1em;
     }
 
     .icones {
