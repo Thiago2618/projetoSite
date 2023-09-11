@@ -6,8 +6,10 @@
 }
 
 .ctt-content {
-    border: 1px black solid;
+    background-color: #2f493b;
     padding: 15px;
     width: 50%;
-    height: 50%;
+    height: 65%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.336);
 }

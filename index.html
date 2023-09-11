@@ -77,22 +77,22 @@
         </section>
         <section class="contato">
             <div class="ctt-content">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <form action="https://formsubmit.co/10dcfc79f89a1427e4db973eb866911c" method="POST">
+                    <div class="mb-4 mt-2">
+                        <label for="exampleInputEmail1" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required autocomplete="off">
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div class="mb-4 mt-2">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required autocomplete="off">
                     </div>
-                    <div class="mb-3 form-check">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" class="my-2">Mensagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required autocomplete="off"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary my-3">Submit</button>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/projetoSite/obrigado.html">
                 </form>
-            </div>
         </section>
     </main>
 </body>
