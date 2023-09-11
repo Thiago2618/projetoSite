@@ -1,0 +1,13 @@
+.contato {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctt-content {
+    border: 1px black solid;
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+}

@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="./estilos/home.css">
     <link rel="stylesheet" href="./estilos/sobre.css">
     <link rel="stylesheet" href="./estilos/skill.css">
+    <link rel="stylesheet" href="./estilos/ctt.css">
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
     <title>Portfólio | Thiago Silva</title>
 </head>
 
 <body>
-    <header class="header" >
+    <header class="header">
         <label for="check" class="checkbtn">
             <!-- <i class="fa fa-bars"></i> -->
             <img src="assets/img/three-bars-icon-6.jpg" alt="" class="bars">
@@ -31,7 +37,7 @@
     <main id="home">
         <section class="home">
             <div class="home-content">
-                <h3 >Olá Mundo, Eu Sou:</h3>
+                <h3>Olá Mundo, Eu Sou:</h3>
                 <h1>Thiago Leandro</h1>
                 <h1>Da Silva</h1>
                 <hr>
@@ -46,9 +52,16 @@
             <div class="sobre-container borda-animada">
                 <h1>Sobre Mim</h1>
                 <p>
-                    Olá, meu nome é Thiago. Sou estudante de Engenharia da Computação, uma disciplina que me apaixonei desde o início da minha jornada acadêmica. Minha jornada na programação começou no terceiro ano do ensino médio, e desde então, venho explorando e aprimorando minhas habilidades.
-                    No início, me familiarizei com as linguagens fundamentais da web, como HTML, CSS e JavaScript, o que me permitiu criar e personalizar websites e aplicativos web simples. Com o tempo, minha paixão pela programação cresceu, levando-me a aprender ferramentas mais avançadas e frameworks como React, Bootstrap e Vue.
-                    Além disso, aprofundei meus conhecimentos em gerenciamento de dados, estudando MySQL como meu banco de dados preferido. Acredito que a combinação de programação front-end e back-end, juntamente com o domínio de bancos de dados, me permite criar soluções completas e eficazes.
+                    Olá, meu nome é Thiago. Sou estudante de Engenharia da Computação, uma disciplina que me apaixonei
+                    desde o início da minha jornada acadêmica. Minha jornada na programação começou no terceiro ano do
+                    ensino médio, e desde então, venho explorando e aprimorando minhas habilidades.
+                    No início, me familiarizei com as linguagens fundamentais da web, como HTML, CSS e JavaScript, o que
+                    me permitiu criar e personalizar websites e aplicativos web simples. Com o tempo, minha paixão pela
+                    programação cresceu, levando-me a aprender ferramentas mais avançadas e frameworks como React,
+                    Bootstrap e Vue.
+                    Além disso, aprofundei meus conhecimentos em gerenciamento de dados, estudando MySQL como meu banco
+                    de dados preferido. Acredito que a combinação de programação front-end e back-end, juntamente com o
+                    domínio de bancos de dados, me permite criar soluções completas e eficazes.
                 </p>
                 <h3>ferramentas</h3>
                 <div class="icones">
@@ -62,7 +75,27 @@
                 </div>
             </div>
         </section>
+        <section class="contato">
+            <div class="ctt-content">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
-    <script src="main.js"></script>
+<script src="main.js"></script>
+
 </html>
