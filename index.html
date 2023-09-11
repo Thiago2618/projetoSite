@@ -12,11 +12,7 @@
     <link rel="stylesheet" href="./estilos/ctt.css">
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Portfólio | Thiago Silva</title>
 </head>
 
@@ -76,26 +72,27 @@
             </div>
         </section>
         <section class="contato" id="ctt">
-            <div class="ctt-content" >
-                <form action="https://formsubmit.co/10dcfc79f89a1427e4db973eb866911c" method="POST">
-                    <div class="mb-4 mt-2">
-                        <label for="exampleInputEmail1" class="form-label text-white">Nome</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required autocomplete="off">
-                    </div>
-                    <div class="mb-4 mt-2">
-                        <label for="exampleInputEmail1" class="form-label text-white">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required autocomplete="off">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1" class="my-2 text-white">Mensagem</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required autocomplete="off"></textarea>
-                      </div>
-                    <button type="submit" class="btn btn-primary my-3" id="btn">Submit</button>
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/projetoSite/obrigado.html">
-                </form>
+            <form>
+                <div class="form-group my-3">
+                  <label for="exampleFormControlInput1" class="my-1 text-white">Nome</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
+                </div>
+                <div class="form-group my-3">
+                  <label for="exampleFormControlInput1" class="my-1 text-white">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1" class="my-1 text-white">Exemplo de textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
         </section>
     </main>
 </body>
 <script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+crossorigin="anonymous">
+</script>
 
 </html>

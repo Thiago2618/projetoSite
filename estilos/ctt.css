@@ -5,11 +5,11 @@
     justify-content: center;
 }
 
-.ctt-content {
+form {
     background-color: #2f493b;
     padding: 15px;
-    width: 50%;
-    height: 65%;
+    width: 50vw;
+    height: 70%;
     border-radius: 15px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.658);
 }
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 700px) {
-    .ctt-content {
-        width: 70%;
+    form {
+        width: 80vw;
     }
 }
