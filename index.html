@@ -72,19 +72,21 @@
             </div>
         </section>
         <section class="contato" id="ctt">
-            <form>
+            <form action="https://formsubmit.co/10dcfc79f89a1427e4db973eb866911c" method="POST">
                 <div class="form-group my-3">
                   <label for="exampleFormControlInput1" class="my-1 text-white">Nome</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome" name="name" autocomplete="off">
                 </div>
                 <div class="form-group my-3">
                   <label for="exampleFormControlInput1" class="my-1 text-white">Endereço de email</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" name="email" autocomplete="off">
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1" class="my-1 text-white">Exemplo de textarea</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <label for="exampleFormControlTextarea1" class="my-1 text-white">Mensagem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mesage"></textarea>
                 </div>
+                <button type="submit" class="btn btn-primary my-3 m-auto" id="btn">Enviar</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/projetoSite/obrigado.html">
               </form>
         </section>
     </main>

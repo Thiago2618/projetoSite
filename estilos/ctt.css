@@ -15,7 +15,8 @@ form {
 }
 
 #btn {
-    background-color: #2f493b;
+    background-color: #F3EAEB;
+    color: black;
     border: none;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.466);
 }
